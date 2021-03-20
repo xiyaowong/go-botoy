@@ -274,6 +274,7 @@ func (bot *Botoy) AddReceiver(receiver ...interface{}) (err error) {
 // 对于哪些是必须指定的字段，需要你自己十分了解机器人服务端api的使用
 func (bot *Botoy) Do(payload payload) (resp *requests.Response, err error) {
 	if bot.BotID == 0 {
+		log.Println("未设置机器人QQ号，无法进行API操作!")
 		return nil, ErrInvalidBotID
 	}
 	method, apiPath, funcName, jsonStr := payload.process()
