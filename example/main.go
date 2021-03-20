@@ -8,7 +8,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/xiyaowong/botoy"
+	"github.com/xiyaowong/go-botoy"
 )
 
 var (

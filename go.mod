@@ -1,4 +1,4 @@
-module github.com/xiyaowong/botoy
+module github.com/xiyaowong/go-botoy
 
 go 1.14
 
