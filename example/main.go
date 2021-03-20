@@ -1,5 +1,7 @@
 package main
 
+// FIXME: 接收用Pack，发送用Payload
+
 import (
 	"encoding/base64"
 	"fmt"
